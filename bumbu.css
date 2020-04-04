@@ -1,0 +1,93 @@
+*{
+margin:0px auto; /*supaya layer otomatis mengisi dan ke tengah*/
+}
+body{
+    font-family:calibri, verdana, sans-serif;
+}
+ 
+#wrapper{<br>width:100%;<br>}
+ 
+#header{
+height:60px; 
+background:#252525;
+width: 100%;
+}
+#header a.title{
+color:#f0f0f0; 
+font-weight:bold; 
+text-decoration:none; 
+font-size:30px; 
+line-height:60px; /*supaya baris judul terlihat rapi, berikan nilai line-height yg sama dengan height #header.*/
+padding:0px 20px; /*padding 20px di kiri dan kanan saja*/
+padding-right: 60%;
+}
+#header a.nav{
+    color: yellow;
+    text-decoration:none;
+    padding: 12px;
+}
+#header a.nav:hover{
+    color: silver;
+}
+strong {
+    color: #B4B4B4;
+}
+#content{
+    margin-top: 100px;
+    background:#eee;
+    min-height:500px; /*cuma supaya konten terlihat berisi. Kalau sudah diisi teks, baris ini harus dihapus.*/
+    margin:0px 20px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: #808080FF;
+}
+.clr {
+    color: white;
+}
+ 
+#footer{
+background:#000;
+height:40px;
+}
+#footer p{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+
+/*blog*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 23%;
+  padding-top: 8px;
+  padding-left: 8px;
+  float: left;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #252525;
+}
+.menu li a{
+    color: yellow;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: white;
+}
+#bcontent{
+    margin-left: 21rem;
+    position: none;
+}
+.isi p {
+    font-size: 22px;
+}
+.isi h2 {
+    font-size: 30px;
+}
